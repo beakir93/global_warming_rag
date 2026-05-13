@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Optional
 
 import streamlit as st
 
@@ -20,6 +21,7 @@ from src.ingest import (
 )
 from src.rag import answer_query
 from src.retriever import HybridRetriever, build_documents, load_vectorstore
+from src.file_loader import process_uploaded_file
 
 
 st.set_page_config(
@@ -62,6 +64,37 @@ def _render_sidebar() -> dict:
         use_hyde = st.toggle("HyDE-расширение запроса", value=True)
 
         st.divider()
+        
+        # Загрузка пользовательского файла
+        st.subheader("📎 Дополнительный контекст")
+        uploaded_file = st.file_uploader(
+            "Загрузите файл (.txt, .md, .pdf)",
+            type=["txt", "md", "pdf"],
+            help="Содержимое файла будет использовано как дополнительный контекст при генерации ответа"
+        )
+        
+        additional_chunks: Optional[list[str]] = None
+        if uploaded_file is not None:
+            try:
+                file_bytes = uploaded_file.getvalue()
+                file_name = uploaded_file.name
+                additional_chunks = process_uploaded_file(
+                    file_bytes=file_bytes,
+                    file_name=file_name,
+                    chunk_size=512,
+                    chunk_overlap=50
+                )
+                st.success(f"✅ Файл '{file_name}' обработан: {len(additional_chunks)} чанков")
+                with st.expander("Предпросмотр чанков"):
+                    for i, chunk in enumerate(additional_chunks[:3]):
+                        st.text(f"Чанк {i+1}: {chunk[:200]}...")
+                    if len(additional_chunks) > 3:
+                        st.caption(f"... и ещё {len(additional_chunks) - 3} чанков")
+            except Exception as e:
+                st.error(f"Ошибка обработки файла: {str(e)}")
+                additional_chunks = None
+
+        st.divider()
         st.subheader("Источники")
         if INDEX_META_PATH.exists():
             meta = json.loads(INDEX_META_PATH.read_text(encoding="utf-8"))
@@ -86,6 +119,7 @@ def _render_sidebar() -> dict:
         "text_quota": text_quota,
         "frame_quota": frame_quota,
         "use_hyde": use_hyde,
+        "additional_chunks": additional_chunks,
     }
 
 
@@ -111,6 +145,19 @@ def _render_frame_gallery(frames: list[dict]) -> None:
 def _render_context(contexts) -> None:
     text_items = [c for c in contexts if c.document.metadata.get("modality") == "text"]
     frame_items = [c for c in contexts if c.document.metadata.get("modality") == "frame"]
+    file_items = [c for c in contexts if c.document.metadata.get("modality") == "file"]
+
+    # Отображение чанков из загруженного файла
+    if file_items:
+        with st.expander("📎 Контекст из загруженного файла", expanded=True):
+            for item in file_items:
+                meta = item.document.metadata
+                citation = meta.get("citation", "File?")
+                st.markdown(
+                    f"**[{citation}] score={item.score:.3f}**"
+                )
+                st.write(item.document.page_content)
+                st.divider()
 
     with st.expander("📜 Текстовые фрагменты", expanded=False):
         for item in text_items:
@@ -183,8 +230,19 @@ def main() -> None:
                 use_hyde=params["use_hyde"],
                 text_quota=params["text_quota"],
                 frame_quota=params["frame_quota"],
+                additional_context_chunks=params.get("additional_chunks"),
             )
         st.markdown(result.answer)
+        
+        # Индикатор использования файла
+        if params.get("additional_chunks"):
+            file_context_used = any(
+                c.document.metadata.get("modality") == "file" 
+                for c in result.contexts
+            )
+            if file_context_used:
+                st.info("📎 При генерации ответа использован контекст из загруженного файла")
+        
         if result.frames:
             _render_frame_gallery(result.frames)
         if result.hypothetical:
@@ -199,6 +257,7 @@ def main() -> None:
             "frames": result.frames,
             "hypothetical": result.hypothetical,
             "contexts": result.contexts,
+            "used_file_context": bool(params.get("additional_chunks")),
         }
     )
 
