@@ -1,1 +1,68 @@
-Nothing should be ignored since the changes only include source code files (.py) and documentation/config files (.md).
+```gitignore
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+.venv/
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.egg
+
+# Build directories
+build/
+dist/
+*.egg
+*.zip
+*.tar.gz
+*.whl
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+.DS_Store
+Thumbs.db
+```
+
+Wait, let me reconsider. The added files are just markdown, pptx, and python source files. No build artifacts or temporary files were mentioned in the changes. Let me check again:
+
+Added: 'PRESENTATION_CONTENT_RU.md', 'RAG_Presentation_AI_Style.pptx', 'create_presentation_pptx.py' - these are all source/content files.
+
+According to rule #6: "If the list of file changes contains ONLY source or config files... and NO build artifacts, dependencies, or temp files — output an EMPTY .gitignore"
+
+Since only source/config files were added and no artifacts, the output should be empty.
+
+```gitignore
+
+```
