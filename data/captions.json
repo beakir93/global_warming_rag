@@ -1,0 +1,605 @@
+[
+  {
+    "index": 0,
+    "timestamp": 0.0,
+    "path": "data/frames/frame_0000_0000s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0000_0000s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден синий экран."
+  },
+  {
+    "index": 1,
+    "timestamp": 6.01,
+    "path": "data/frames/frame_0001_0006s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0001_0006s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден текст \"Глобальное потепление\" на тёмно-зелёном фоне."
+  },
+  {
+    "index": 2,
+    "timestamp": 12.01,
+    "path": "data/frames/frame_0002_0012s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0002_0012s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видны облака и часть суши."
+  },
+  {
+    "index": 3,
+    "timestamp": 18.02,
+    "path": "data/frames/frame_0003_0018s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0003_0018s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено небо с облаками, на котором видны мелкие частицы, похожие на пыль или дым. Цвет неба варьируется от светло-голубого до розового."
+  },
+  {
+    "index": 4,
+    "timestamp": 24.02,
+    "path": "data/frames/frame_0004_0024s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0004_0024s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено небо с облаками."
+  },
+  {
+    "index": 5,
+    "timestamp": 30.03,
+    "path": "data/frames/frame_0005_0030s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0005_0030s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено дерево на фоне заката. Небо окрашено в теплые оттенки."
+  },
+  {
+    "index": 6,
+    "timestamp": 36.04,
+    "path": "data/frames/frame_0006_0036s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0006_0036s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено дерево на фоне заката. Небо затянуто облаками."
+  },
+  {
+    "index": 7,
+    "timestamp": 42.04,
+    "path": "data/frames/frame_0007_0042s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0007_0042s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, частично погруженный в воду. Вокруг видны льдины и волны. На заднем плане - горы и облака."
+  },
+  {
+    "index": 8,
+    "timestamp": 48.05,
+    "path": "data/frames/frame_0008_0048s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0008_0048s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена река с бурным течением, окружённая деревьями с жёлтой листвой. На заднем плане виден обрыв."
+  },
+  {
+    "index": 9,
+    "timestamp": 54.05,
+    "path": "data/frames/frame_0009_0054s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0009_0054s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено здание, похожее на стадион, с освещёнными окнами. Вокруг видны другие здания и огни города."
+  },
+  {
+    "index": 10,
+    "timestamp": 60.06,
+    "path": "data/frames/frame_0010_0060s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0010_0060s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден магазин с продуктами."
+  },
+  {
+    "index": 11,
+    "timestamp": 66.07,
+    "path": "data/frames/frame_0011_0066s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0011_0066s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен оживленный перекресток в вечернее время. Видны здания с яркими неоновыми вывесками, автомобили и пешеходы."
+  },
+  {
+    "index": 12,
+    "timestamp": 72.07,
+    "path": "data/frames/frame_0012_0072s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0012_0072s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видна Земля из космоса, видны контуры континентов и океанов. На поверхности планеты видны белые пятна, которые могут быть облаками или льдом. В правом верхнем углу экрана находится надпись \"2010\"."
+  },
+  {
+    "index": 13,
+    "timestamp": 78.08,
+    "path": "data/frames/frame_0013_0078s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0013_0078s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден земной шар, на котором выделена область, окрашенная в зеленый цвет."
+  },
+  {
+    "index": 14,
+    "timestamp": 84.08,
+    "path": "data/frames/frame_0014_0084s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0014_0084s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видно, что на планете бушует мощный ураган."
+  },
+  {
+    "index": 15,
+    "timestamp": 90.09,
+    "path": "data/frames/frame_0015_0090s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0015_0090s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено поле с созревшими колосьями пшеницы."
+  },
+  {
+    "index": 16,
+    "timestamp": 96.1,
+    "path": "data/frames/frame_0016_0096s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0016_0096s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден вид Земли из космоса. На поверхности планеты видны облака и суша. В нижней части кадра присутствует шкала с цифрами."
+  },
+  {
+    "index": 17,
+    "timestamp": 102.1,
+    "path": "data/frames/frame_0017_0102s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0017_0102s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден вид на Землю из космоса. Можно увидеть облака, континенты и океаны."
+  },
+  {
+    "index": 18,
+    "timestamp": 108.11,
+    "path": "data/frames/frame_0018_0108s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0018_0108s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видны облака, океаны и континенты."
+  },
+  {
+    "index": 19,
+    "timestamp": 114.11,
+    "path": "data/frames/frame_0019_0114s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0019_0114s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены белые медведи на фоне тающего льда. В нижней части экрана видна карта с выделенной территорией."
+  },
+  {
+    "index": 20,
+    "timestamp": 120.12,
+    "path": "data/frames/frame_0020_0120s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0020_0120s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно, как ледник тает, и вода стекает вниз."
+  },
+  {
+    "index": 21,
+    "timestamp": 126.13,
+    "path": "data/frames/frame_0021_0126s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0021_0126s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена карта, на которой видны очертания континентов и океанов."
+  },
+  {
+    "index": 22,
+    "timestamp": 132.13,
+    "path": "data/frames/frame_0022_0132s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0022_0132s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены четыре фотографии, демонстрирующие последствия глобального потепления. На одной из них виден закат над водой, на другой - карта с выделенными участками."
+  },
+  {
+    "index": 23,
+    "timestamp": 138.14,
+    "path": "data/frames/frame_0023_0138s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0023_0138s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно, как дым поднимается в небо."
+  },
+  {
+    "index": 24,
+    "timestamp": 144.14,
+    "path": "data/frames/frame_0024_0144s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0024_0144s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видны облака и очертания континентов. Внизу экрана присутствует шкала с делениями."
+  },
+  {
+    "index": 25,
+    "timestamp": 150.15,
+    "path": "data/frames/frame_0025_0150s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0025_0150s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден вид на Землю из космоса. В кадре видны облака, поверхность Земли и линия горизонта."
+  },
+  {
+    "index": 26,
+    "timestamp": 156.16,
+    "path": "data/frames/frame_0026_0156s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0026_0156s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден дым, поднимающийся над землей. Вокруг дымки видны силуэты деревьев."
+  },
+  {
+    "index": 27,
+    "timestamp": 162.16,
+    "path": "data/frames/frame_0027_0162s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0027_0162s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена гора, покрытая снегом, на фоне Земли из космоса. Видны линии сетки, вероятно, для определения местоположения."
+  },
+  {
+    "index": 28,
+    "timestamp": 168.17,
+    "path": "data/frames/frame_0028_0168s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0028_0168s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса, на которой виден город."
+  },
+  {
+    "index": 29,
+    "timestamp": 174.17,
+    "path": "data/frames/frame_0029_0174s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0029_0174s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен город, окутанный дымкой. Видны здания и деревья."
+  },
+  {
+    "index": 30,
+    "timestamp": 180.18,
+    "path": "data/frames/frame_0030_0180s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0030_0180s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден земной шар, освещенный солнцем. На поверхности планеты видны облака. В центре кадра наложена сетка."
+  },
+  {
+    "index": 31,
+    "timestamp": 186.19,
+    "path": "data/frames/frame_0031_0186s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0031_0186s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре из научно-популярного видео про глобальное потепление виден вид Земли из космоса. На поверхности планеты видны очертания континентов и океанов. В нижней части кадра присутствует информационная панель с надписями, но текст неразборчив."
+  },
+  {
+    "index": 32,
+    "timestamp": 192.19,
+    "path": "data/frames/frame_0032_0192s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0032_0192s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно изображение Земли из космоса, на котором видны облака и суша."
+  },
+  {
+    "index": 33,
+    "timestamp": 198.2,
+    "path": "data/frames/frame_0033_0198s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0033_0198s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден вид на Землю из космоса, где можно различить очертания континентов и океанов. В правой части изображения находится увеличенный фрагмент, на котором видны городские огни и реки."
+  },
+  {
+    "index": 34,
+    "timestamp": 204.2,
+    "path": "data/frames/frame_0034_0204s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0034_0204s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен город, затопленный водой. Видны здания, частично скрытые под водой, и купол собора, который выступает над поверхностью."
+  },
+  {
+    "index": 35,
+    "timestamp": 210.21,
+    "path": "data/frames/frame_0035_0210s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0035_0210s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видны горные вершины, покрытые снегом, и облака. В нижней части кадра есть размытая надпись."
+  },
+  {
+    "index": 36,
+    "timestamp": 216.22,
+    "path": "data/frames/frame_0036_0216s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0036_0216s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены горные пейзажи, покрытые снегом и льдом. Видны скалы и ледники. В нижней части кадра присутствует сетка, похожая на разметку для монтажа видео."
+  },
+  {
+    "index": 37,
+    "timestamp": 222.22,
+    "path": "data/frames/frame_0037_0222s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0037_0222s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображено поле с кукурузой. Растения выглядят здоровыми и зелёными. Небо затянуто облаками."
+  },
+  {
+    "index": 38,
+    "timestamp": 228.23,
+    "path": "data/frames/frame_0038_0228s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0038_0228s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен горный пейзаж с заснеженными вершинами и зелёными склонами. Внизу видна долина с жёлтыми полями. В правом верхнем углу экрана отображается информация о дате и времени съёмки, а также о типе изображения и его разрешении."
+  },
+  {
+    "index": 39,
+    "timestamp": 234.23,
+    "path": "data/frames/frame_0039_0234s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0039_0234s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, частично погруженный в воду. Видна его верхняя часть, покрытая снегом и льдом. Вокруг айсберга — тёмная вода."
+  },
+  {
+    "index": 40,
+    "timestamp": 240.24,
+    "path": "data/frames/frame_0040_0240s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0040_0240s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, отколовшийся от ледника. Видно, как он медленно погружается в воду."
+  },
+  {
+    "index": 41,
+    "timestamp": 246.25,
+    "path": "data/frames/frame_0041_0246s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0041_0246s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен полицейский автомобиль, который едет по затопленной улице. Видно, что вода поднялась достаточно высоко, чтобы покрыть часть дороги. На заднем плане видны здания и статуя."
+  },
+  {
+    "index": 42,
+    "timestamp": 252.25,
+    "path": "data/frames/frame_0042_0252s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0042_0252s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен человек в черном плаще, стоящий на постаменте. Вокруг него бушует ураган, поднимающий в воздух мусор и пыль. Видны здания, частично скрытые вихрями."
+  },
+  {
+    "index": 43,
+    "timestamp": 258.26,
+    "path": "data/frames/frame_0043_0258s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0043_0258s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видна металлическая лестница, ведущая вниз, и надпись \"Экспресс\"."
+  },
+  {
+    "index": 44,
+    "timestamp": 264.26,
+    "path": "data/frames/frame_0044_0264s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0044_0264s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден земной шар, на котором можно различить очертания Северной Америки. Вокруг планеты видны облака. В левом нижнем углу изображения присутствует полупрозрачная панель с цифрами и графиком."
+  },
+  {
+    "index": 45,
+    "timestamp": 270.27,
+    "path": "data/frames/frame_0045_0270s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0045_0270s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видны очертания континентов и облаков. Вокруг планеты расположены различные графики и диаграммы."
+  },
+  {
+    "index": 46,
+    "timestamp": 276.28,
+    "path": "data/frames/frame_0046_0276s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0046_0276s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены заснеженные горы, частично скрытые облаками."
+  },
+  {
+    "index": 47,
+    "timestamp": 282.28,
+    "path": "data/frames/frame_0047_0282s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0047_0282s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены горы, частично скрытые облаками. Небо затянуто облаками, но местами проглядывает солнце."
+  },
+  {
+    "index": 48,
+    "timestamp": 288.29,
+    "path": "data/frames/frame_0048_0288s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0048_0288s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена большая группа людей, идущих по дороге."
+  },
+  {
+    "index": 49,
+    "timestamp": 294.29,
+    "path": "data/frames/frame_0049_0294s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0049_0294s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена большая группа людей, поднимающихся по склону горы."
+  },
+  {
+    "index": 50,
+    "timestamp": 300.3,
+    "path": "data/frames/frame_0050_0300s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0050_0300s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден вид на Землю из космоса, где можно различить очертания континентов и океанов. В нижней части кадра присутствует полупрозрачная полоса с текстом, но разобрать его невозможно."
+  },
+  {
+    "index": 51,
+    "timestamp": 306.31,
+    "path": "data/frames/frame_0051_0306s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0051_0306s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре виден густой туман, окутывающий тропический лес."
+  },
+  {
+    "index": 52,
+    "timestamp": 312.31,
+    "path": "data/frames/frame_0052_0312s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0052_0312s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображена Земля из космоса. Видны континенты и океаны."
+  },
+  {
+    "index": 53,
+    "timestamp": 318.32,
+    "path": "data/frames/frame_0053_0318s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0053_0318s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, который откололся от ледника. Видно, как он медленно дрейфует в океане."
+  },
+  {
+    "index": 54,
+    "timestamp": 324.32,
+    "path": "data/frames/frame_0054_0324s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0054_0324s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображены последствия глобального потепления: затопленные города, разрушенные здания и мосты. Видны волны, бьющиеся о мост."
+  },
+  {
+    "index": 55,
+    "timestamp": 330.33,
+    "path": "data/frames/frame_0055_0330s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0055_0330s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен город, который частично затоплен водой. Видны мосты, здания и башни, которые находятся под водой."
+  },
+  {
+    "index": 56,
+    "timestamp": 336.34,
+    "path": "data/frames/frame_0056_0336s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0056_0336s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен людный переход, по которому люди идут в разные стороны. Видны зеленые перила и потолок с лампами."
+  },
+  {
+    "index": 57,
+    "timestamp": 342.34,
+    "path": "data/frames/frame_0057_0342s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0057_0342s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен ночной вид на город с высоты птичьего полета. Видны освещенные улицы и здания."
+  },
+  {
+    "index": 58,
+    "timestamp": 348.35,
+    "path": "data/frames/frame_0058_0348s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0058_0348s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, отколовшийся от ледника. Видно, как он медленно погружается в воду."
+  },
+  {
+    "index": 59,
+    "timestamp": 354.35,
+    "path": "data/frames/frame_0059_0354s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0059_0354s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен айсберг, отколовшийся от ледника. Видны его огромные размеры и голубоватый оттенок льда."
+  },
+  {
+    "index": 60,
+    "timestamp": 360.36,
+    "path": "data/frames/frame_0060_0360s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0060_0360s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно, как айсберг откалывается от ледника и падает в воду."
+  },
+  {
+    "index": 61,
+    "timestamp": 366.37,
+    "path": "data/frames/frame_0061_0366s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0061_0366s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен белый медведь, который идет по льдине в море."
+  },
+  {
+    "index": 62,
+    "timestamp": 372.37,
+    "path": "data/frames/frame_0062_0372s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0062_0372s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен вид на город с высоты птичьего полета. Видны крыши домов, улицы и, возможно, река или озеро. Небо затянуто облаками."
+  },
+  {
+    "index": 63,
+    "timestamp": 378.38,
+    "path": "data/frames/frame_0063_0378s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0063_0378s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно, как человек с помощью лопаты копает землю. Вокруг него видны деревья и кустарники."
+  },
+  {
+    "index": 64,
+    "timestamp": 384.38,
+    "path": "data/frames/frame_0064_0384s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0064_0384s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре изображен лес, освещенный солнцем. Видны деревья и кустарники."
+  },
+  {
+    "index": 65,
+    "timestamp": 390.39,
+    "path": "data/frames/frame_0065_0390s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0065_0390s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно, как мужчина в синей футболке держит в руках кусок льда."
+  },
+  {
+    "index": 66,
+    "timestamp": 396.4,
+    "path": "data/frames/frame_0066_0396s.jpg",
+    "abs_path": "/Users/maxtiandi/DS_rabota/data/frames/frame_0066_0396s.jpg",
+    "duration": 401.6,
+    "interval_sec": 6.0,
+    "caption": "На кадре видно человека в зимней одежде, который держит в руках смартфон. На заднем плане видны солнечные лучи и голубое небо."
+  }
+]
