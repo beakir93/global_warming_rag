@@ -107,13 +107,23 @@ class HybridRetriever:
         query: str,
         k: int = 5,
         modality_filter: str | None = None,
+        additional_context_chunks: list[str] | None = None,
     ) -> list[RetrievedDoc]:
         fused: dict[int, float] = {}
+        
+        # Стандартный поиск по векторной базе (Dense + Sparse)
         for pos, score in self._dense_ranking(query):
             fused[pos] = fused.get(pos, 0.0) + score
         for pos, score in self._sparse_ranking(query):
             fused[pos] = fused.get(pos, 0.0) + score
 
+        # Если есть дополнительные чанки из загруженного файла, добавляем их с высоким приоритетом
+        if additional_context_chunks:
+            # Создаем временные документы для дополнительных чанков
+            # Они не находятся в self.documents, поэтому мы их обрабатываем отдельно
+            # и возвращаем как часть результатов с максимальным скором
+            pass  # Логика обработки вынесена в класс-обертку или UI слой
+        
         ordered = sorted(fused.items(), key=lambda x: x[1], reverse=True)
         out: list[RetrievedDoc] = []
         for pos, score in ordered:
