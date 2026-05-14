@@ -1,23 +1,19 @@
-```gitignore
-# Compiled and build artifacts
-*.pyc
+# Python
 __pycache__/
-
-# Dependencies
+*.py[cod]
+*$py.class
+*.so
+.Python
 .venv/
 venv/
+*.egg-info/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment (но не .env.example)
 .env
 .env.local
-.env.*
+!.env.example
 
-# Editors
+# IDE
 .vscode/
 .idea/
 
@@ -25,20 +21,7 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-.egg
-
-# Build directories
+# Build artifacts
 build/
 dist/
 *.egg
@@ -46,23 +29,13 @@ dist/
 *.tar.gz
 *.whl
 
-# Temporary files
-*.tmp
-*.temp
-*~
-.#*
-.DS_Store
-Thumbs.db
-```
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
 
-Wait, let me reconsider. The added files are just markdown, pptx, and python source files. No build artifacts or temporary files were mentioned in the changes. Let me check again:
+# Logs
+*.log
 
-Added: 'PRESENTATION_CONTENT_RU.md', 'RAG_Presentation_AI_Style.pptx', 'create_presentation_pptx.py' - these are all source/content files.
-
-According to rule #6: "If the list of file changes contains ONLY source or config files... and NO build artifacts, dependencies, or temp files — output an EMPTY .gitignore"
-
-Since only source/config files were added and no artifacts, the output should be empty.
-
-```gitignore
-
-```
+# GitLab CI/CD cache
+.cache/

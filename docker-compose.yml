@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - GIGACHAT_CREDENTIALS=${GIGACHAT_CREDENTIALS}
+      - GIGACHAT_SCOPE=${GIGACHAT_SCOPE:-GIGACHAT_API_B2B}
+      - GIGACHAT_MODEL=${GIGACHAT_MODEL:-GigaChat-2-Max}
+      - GIGACHAT_VISION_MODEL=${GIGACHAT_VISION_MODEL:-GigaChat-2-Max}
+      - YOUTUBE_URL=${YOUTUBE_URL:-https://youtu.be/WXUINIDj5qI}
+    volumes:
+      # Сохраняем данные между перезапусками
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
