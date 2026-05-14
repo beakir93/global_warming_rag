@@ -5,7 +5,7 @@
 import os
 import tempfile
 from typing import List, Optional
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader, PyPDFLoader
 
 def load_file_content(file_path: str) -> str:
